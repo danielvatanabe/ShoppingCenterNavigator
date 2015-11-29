@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Oven
+Bundle-SymbolicName: iot.shoppingnavigator.sensor
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: iot.shoppingnavigator.sensor.impl.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: iot.shoppingnavigator.realposition, org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: iot.shoppingnavigator.sensor
